@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="flex container">
+        <a href="/blog/routes/index.js" class="brand">Blog App</a>
+        <nav>
+          <a href="/register/login">Login</a>
+          <a href="/register">Register</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <form class="form-2" action="../routes/register.js" method="post">
+        <fieldset>
+          <input type="email" name="email" placeholder="Enter your email" />
+          <input type="password" name="password" placeholder="Enter password" />
+          <button>Login</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
